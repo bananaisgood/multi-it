@@ -42,7 +42,7 @@
 
 <img width="708" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/c00baafb-7c0f-4738-82cf-4ca25ac5549e">
 
-EKS Cluster
+<center>EKS Cluster</center>
 
 <img width="606" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/c51b83bb-bc7a-4f70-b1c5-3425f6d743be">
 
