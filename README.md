@@ -38,6 +38,8 @@
 
 <h2>수행절차 및 방법</h2>
 
+<h3>Cloud</h3>
+
 <p align="center">AWS Architecture</p>
 
 <img width="708" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/c00baafb-7c0f-4738-82cf-4ca25ac5549e">
@@ -56,6 +58,12 @@
 <p align="center">CI/CD</p>
 
 <img width="597" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/5f5fd34d-d8a9-4903-9929-dd6eefb6901d">
+
+<h3>IOT</h3>
+
+<img width="970" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/f5430e62-cab7-4a42-9452-3397488a275b">
+
+
 
 
 
