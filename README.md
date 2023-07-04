@@ -1,5 +1,6 @@
 <h1>층간 소음 측정 및 관리 공유 커뮤니티 서비스</h1>
 
+
 <h2>프로젝트 개요</h2>
 
   <ul>
@@ -22,19 +23,30 @@
   <h3>활용 장비 및 개발 환경</h3>
   <ul>
     <li>
-      IOT : 
-      Cloud :
+      IOT : python , VS Code , django , Kotlin , REST , Android Studio</li>
+    <li>
+      Cloud : python , VS Code , AWS , Jenkins , argo
+    </li>
+    <li>
+      AI : python , colab , jupyer
+    </li>
+    <li>
+        Bigdata : python
     </li>
   </ul>
 
 
-
-  
-
-  
-<h2>팀 구성 및 역할</h2>
-
 <h2>수행절차 및 방법</h2>
+
+AWS Architecture
+
+<img width="708" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/c00baafb-7c0f-4738-82cf-4ca25ac5549e">
+
+EKS Cluster
+
+<img width="606" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/c51b83bb-bc7a-4f70-b1c5-3425f6d743be">
+
+
 
 <h2>프로젝트 수행 결과</h2>
 
