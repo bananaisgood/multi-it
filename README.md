@@ -42,9 +42,21 @@
 
 <img width="708" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/c00baafb-7c0f-4738-82cf-4ca25ac5549e">
 
+
 <p align="center">EKS Cluster</p>
 
 <img width="606" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/c51b83bb-bc7a-4f70-b1c5-3425f6d743be">
+
+
+<p align="center">AWS Workflow</p>
+
+<img width="798" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/e7cd3a99-7503-4864-a8aa-7c0a0ea903d0">
+
+
+<p align="center">CI/CD</p>
+
+<img width="597" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/5f5fd34d-d8a9-4903-9929-dd6eefb6901d">
+
 
 
 
