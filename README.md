@@ -61,7 +61,7 @@
 
 <h3>IOT</h3>
 
-<img width="970" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/f5430e62-cab7-4a42-9452-3397488a275b">
+
 
 
 
