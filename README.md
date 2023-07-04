@@ -38,7 +38,7 @@
 
 <h2>수행절차 및 방법</h2>
 
-AWS Architecture
+<center>AWS Architecture</center>
 
 <img width="708" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/c00baafb-7c0f-4738-82cf-4ca25ac5549e">
 
