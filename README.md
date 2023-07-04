@@ -50,16 +50,25 @@
 <img width="606" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/c51b83bb-bc7a-4f70-b1c5-3425f6d743be">
 
 
-<p align="center">AWS Workflow</p>
-
-<img width="798" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/e7cd3a99-7503-4864-a8aa-7c0a0ea903d0">
-
-
 <p align="center">CI/CD</p>
 
 <img width="597" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/5f5fd34d-d8a9-4903-9929-dd6eefb6901d">
 
 <h3>IOT</h3>
+<ul>
+  <li>소음 측정기로 1분 평균 데시벨 데이터를 지속적으로 전송</li>
+  <li>반복 녹음 기능으로 층간 소음 녹음 파일을 기준치 이사의 소음 측정 시 데이터를 amazon s3에 전송</li>
+</ul>
+
+<h3>AI 모델 목적</h3>
+<ul>
+  <li>소음 녹음파일을 수집하고,이를 이미지화하여 구별</li>
+  <li>"층간소음"에 해당하는 소음을 구분</li>
+  <li>데이터 수집 및 스펙트로그램 분석</li>
+  <img width="317" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/109fdcd1-e7c6-409a-8cfb-d2bffa36ba76">
+
+</ul>
+
 
 
 
