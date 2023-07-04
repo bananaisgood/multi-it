@@ -16,8 +16,16 @@
 
   <h3>프로젝트 구조도</h3>
 
-  <img width="772" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/407318db-e4d5-4c16-8e13-5a5461093a64">
-
+  <img width="772" alt="image" src="https://github.com/bananaisgood/multi-  
+   it/assets/112065692/407318db-e4d5-4c16-8e13-5a5461093a64">
+  
+  <h3>활용 장비 및 개발 환경</h3>
+  <ul>
+    <li>
+      IOT : 
+      Cloud :
+    </li>
+  </ul>
 
 
 
