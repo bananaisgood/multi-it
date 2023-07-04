@@ -1,0 +1,34 @@
+from keras.models import load_model
+from keras.optimizers import Adam
+import librosa
+import numpy as np
+import tensorflow as tf
+import mysql.connector as connector
+import traceback
+# 모델 불러오기
+model = load_model(“all_batch32_dense(224,224).hdf5”, custom_objects={“Adam”: Adam})
+# wav 파일 불러오기
+filename = ‘N-10_220918_A_1_b_01291_edit.wav’
+y, sr = librosa.load(filename)
+class_names = ['중량충격음','가구끄는소리','악기','애완동물']
+check = [0] * len(class_names)  # 가장 많이 나온 것 판단
+n_fft = 2048
+hop_length = 512
+n_mels = 64
+fmin = 20
+fmax = 8000
+duration = 15
+# 이미지화 -> 판단
+for j in range(0, len(y)-duration*sr+1, duration*sr):
+    y_interval = y[j:j+duration*sr]
+    S = librosa.feature.melspectrogram(y=y_interval, sr=sr, n_fft=n_fft, hop_length=hop_length, n_mels=n_mels, fmin=fmin, fmax=fmax)
+    S_dB = librosa.power_to_db(S, ref=np.max)
+    S_dB_norm = (S_dB - np.min(S_dB)) / (np.max(S_dB) - np.min(S_dB)) * 255
+    S_dB_norm_resized = tf.image.resize(tf.expand_dims(tf.convert_to_tensor(S_dB_norm), axis=-1), [224, 224])
+    S_dB_norm_resized_4d = tf.expand_dims(S_dB_norm_resized, axis=0)
+    S_dB_norm_resized_4d = tf.repeat(S_dB_norm_resized_4d, 3, axis=-1).numpy()
+    preds = model.predict(S_dB_norm_resized_4d) #판단하는 부분
+    check[np.argmax(preds[0])]+=1
+# 추론 결과값 출력
+result_class = class_names[np.argmax(check)]
+print(result_class)
