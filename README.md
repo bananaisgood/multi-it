@@ -16,8 +16,10 @@
 
   <h3>프로젝트 구조도</h3>
 
-  <img width="772" alt="image" src="https://github.com/bananaisgood/multi-  
-   it/assets/112065692/85564c4f-8502-4c33-a55b-8e110126e1e6">
+  <img width="772" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/407318db-e4d5-4c16-8e13-5a5461093a64">
+
+
+
 
   
 
