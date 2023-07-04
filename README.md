@@ -38,11 +38,11 @@
 
 <h2>수행절차 및 방법</h2>
 
-<center>AWS Architecture</center>
+<p align="center">AWS Architecture</p>
 
 <img width="708" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/c00baafb-7c0f-4738-82cf-4ca25ac5549e">
 
-<center>EKS Cluster</center>
+<p align="center">EKS Cluster</p>
 
 <img width="606" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/c51b83bb-bc7a-4f70-b1c5-3425f6d743be">
 
