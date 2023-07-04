@@ -65,7 +65,10 @@
   <li>소음 녹음파일을 수집하고,이를 이미지화하여 구별</li>
   <li>"층간소음"에 해당하는 소음을 구분</li>
   <li>데이터 수집 및 스펙트로그램 분석</li>
-  <img width="317" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/109fdcd1-e7c6-409a-8cfb-d2bffa36ba76">
+  <li>15초의 학습용 소리 파일을 5초씩 끊어 3개의 멜 스펙토그램 생성</li>
+  <li>CNN 모델 사용</li>
+
+  <img width="469" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/7624a21f-2c77-4ae9-8038-d4683d58d5a2">
 
 </ul>
 
@@ -77,9 +80,7 @@
 
 
 
-<h2>프로젝트 수행 결과</h2>
 
-<h2>자체 평가 의견</h2>
 
 
 
