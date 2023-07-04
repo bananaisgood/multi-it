@@ -16,8 +16,8 @@
 
   <h3>프로젝트 구조도</h3>
 
-  <img width="772" alt="image" src="https://github.com/bananaisgood/multi-  
-   it/assets/112065692/407318db-e4d5-4c16-8e13-5a5461093a64">
+  <img width="772" alt="image" src="https://github.com/bananaisgood/multi-it/assets/112065692/5273a201-5b0a-4436-9639-2d92a67860f2">
+
   
   <h3>활용 장비 및 개발 환경</h3>
   <ul>
